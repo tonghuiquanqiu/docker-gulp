@@ -24,3 +24,5 @@ RUN npm install gulp-autoprefixer -g
 RUN npm install gulp-cached -g
 RUN npm install gulp-image -g
 RUN npm install gulp-uglify -g
+RUN npm install bower -g
+RUN npm install browser-sync -g
