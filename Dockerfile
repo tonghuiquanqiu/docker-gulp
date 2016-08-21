@@ -11,7 +11,7 @@ RUN apt update
 RUN apt install -y wget
 RUN wget -qO- https://deb.nodesource.com/setup_4.x | bash -
 RUN apt install -y nodejs
-RUN apt install -y ruby build-essential imagemagick libjpeg62 libjpeg62-turbo-dev
+RUN apt install -y ruby ruby-dev build-essential imagemagick libjpeg62 libjpeg62-turbo-dev
 
 # Install compass
 RUN gem install sass
