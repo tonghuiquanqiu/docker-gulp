@@ -18,7 +18,7 @@ RUN gem install sass
 RUN gem install compass
 
 # Install gulp packages..
-RUN npm install gulp-cli -g
+RUN npm install gulp -g
 RUN npm install gulp-autoprefixer -g
 RUN npm install gulp-cached -g
 RUN npm install gulp-image -g
